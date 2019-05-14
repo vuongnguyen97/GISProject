@@ -1,0 +1,235 @@
+********************************************************************************
+********************************************************************************
+Universal Translator output from run on 03 Thaìng Nãm 2019 1:08:09 CH
+(Note: 'FME' in the text below refers to the underlying translation engine.)
+********************************************************************************
+********************************************************************************
+        Feature Manipulation Engine 2010 (20100303 - Build 6209 - WIN32)
+                          MapInfo.UniversalTranslator
+                               Permanent License.
+                     Machine host name is: DESKTOP-OEOBHET
+                           Copyright (c) 1994 - 2009
+                               Safe Software Inc.
+
+Opened native MapInfo file `C:\Users\quocv\OneDrive\Máy tính\Document\duong-giao-thong.tab'
+Predefined coordinate system `LL-MAPINFO' (MapInfo Generic Lat/Long) matches dataset coordinate system 
+Read coordinate system `LL-MAPINFO' from MapInfo data file (parameters are: DT_NAME MAPINFO PROJ LL MAP_SCL 1 UNIT DEGREE )
+Opened mapping File C:\Users\quocv\AppData\Local\Temp\fme2A2C.tmp for output
+Mapping File Generation was SUCCESSFUL
+Mapping File Generation was SUCCESSFUL.
+FME Session Duration: 1.5 seconds. (CPU: 0.7s user, 0.2s system)
+END - ProcessID: 348, peak process memory usage: 33096 kB, current process memory usage: 32856 kB.
+
+Translation SUCCEEDED.
+Feature Manipulation Engine 2010 (20100303 - Build 6209 - WIN32)
+FME_HOME is 'C:\Program Files (x86)\MapInfo\Professional\UT\'
+MapInfo.UniversalTranslator
+Permanent License.
+Machine host name is: DESKTOP-OEOBHET
+START - ProcessID: 8744, peak process memory usage: 18788 kB, current process memory usage: 18656 kB.
+FME Configuration: Command line arguments are `imut' `C:\Users\quocv\AppData\Local\Temp\fme3AF5.tmp' `LOG_STANDARDOUT' `YES'
+FME Configuration: Reader Keyword is `MAPINFO'
+FME Configuration: Writer Keyword is `SHAPE'
+FME Configuration: Writer Group Definition Keyword is `SHAPE_DEF'
+FME Configuration: Reader type is `MAPINFO'
+FME Configuration: Writer type is `SHAPE'
+FME Configuration: No destination coordinate system set
+FME Configuration: Geometry Handling Mode is `Classic' 
+FME Configuration: Current working directory is `C:\Users\quocv\OneDrive\Máy tính\Document'
+FME Configuration: Temporary directory is `C:\Users\quocv\AppData\Local\Temp'
+FME Configuration: FME_HOME is `C:\Program Files (x86)\MapInfo\Professional\UT\'
+FME Configuration: FME_BASE is 'yes'
+FME Configuration: FME_MF_DIR is 'C:\Users\quocv\AppData\Local\Temp/'
+FME Configuration: FME_MF_NAME is 'fme3AF5.tmp'
+FME Configuration: FME_PRODUCT_NAME is 'FME 2010'
+System Status: 22898MB of disk space available in the FME temporary directory (C:\Users\quocv\AppData\Local\Temp\)
+System Status: 3936MB of virtual memory available
+Operating System: Microsoft Windows Vista  (Build 9200)
+FME Platform: WIN32
+Locale: vi_VN
+Code Page: 1258  (ANSI/OEM - Viê?t Nam)
+FME Configuration: Process limit is 4015 MB of memory and 4095 MB of address space
+FME Configuration: Start freeing memory when process usage exceeds 2409 MB of memory or 3495 MB of address space
+FME Configuration: Stop freeing memory when process usage is below 1807 MB of memory and 2621 MB of address space
+FME Configuration: Autodetermining optimal maximum number of objects in memory
+Using MapInfo (MFAL) Native Reader $Revision: 51012 $ ( $Date: 2009-02-19 13:41:34 -0800 (Thu, 19 Feb 2009) $ ) to read MapInfo data from directory `C:\Users\quocv\OneDrive\Máy tính\Document\'
+MAPINFO Reader: Using Classic Geometry
+Opened native MapInfo file `C:\Users\quocv\OneDrive\Máy tính\Document\duong-giao-thong.tab'
+Predefined coordinate system `LL-MAPINFO' (MapInfo Generic Lat/Long) matches dataset coordinate system 
+Read coordinate system `LL-MAPINFO' from MapInfo data file (parameters are: DT_NAME MAPINFO PROJ LL MAP_SCL 1 UNIT DEGREE )
+Using Shape Writer $Revision: 38505 $ ( $Date: 2007-09-27 12:31:56 -0700 (Thu, 27 Sep 2007) $ ) to write shape files to directory `C:\Users\quocv\OneDrive\Máy tính\Document'
+FME Configuration: Source coordinate system for reader MAPINFO[MAPINFO] set to `LL-MAPINFO' as read from input data
+Coordinate System `LL-MAPINFO' parameters: CS_NAME=`LL-MAPINFO' DESC_NM=`MapInfo Generic Lat/Long' DT_NAME=`MAPINFO' GROUP=`MAPINFO' MAP_SCL=`1' PARM1=`-180' PARM2=`180' PROJ=`LL' QUAD=`1' SCL_RED=`1' SOURCE=`MapInfo' UNIT=`DEGREE' 
+Coordinate System `LL-MAPINFO' as OGC Well Known Text: GEOGCS["MapInfo Generic Lat/Long",DATUM["MAPINFO",SPHEROID["World Geodetic System of 1984, GEM 10C",6378137,298.257223563]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433]]
+FME Configuration: Destination coordinate system set to input coordinate system `LL-MAPINFO'
+Opened Shape File C:\Users\quocv\OneDrive\Máy tính\Document\duong-giao-thong_polyline.shp for output
+Opened DBF file 'C:\Users\quocv\OneDrive\Máy tính\Document\duong-giao-thong_polyline.dbf' for output
+Opened Shape File C:\Users\quocv\OneDrive\Máy tính\Document\duong-giao-thong_point.shp for output
+Opened DBF file 'C:\Users\quocv\OneDrive\Máy tính\Document\duong-giao-thong_point.dbf' for output
+Emptying factory pipeline
+__CollectionTest(TestFactory): Tested 26 input features -- 0 features passed, 26 features failed.
+__DeaggCollections(DeaggregateFactory): Split 0 input feature(s) into 0 point-in-polygon feature(s), 0 donut polygon(s), 0 polygon(s), 0 line(s), 0 point(s), and 0 aggregate(s)
+__AggregateHomo(AggregateFactory): Combined 0 input feature(s) into 0 output feature(s), including 0 singleton(s)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+                            Features Read Summary
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+duong-giao-thong                                                            26
+==============================================================================
+Total Features Read                                                         26
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+                         MAPINFO to SHAPE Statistics
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+                          Input Features Transformed
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+duong-giao-thong+mapinfo_type+mapinfo_point+ID+%ID+ten_duong+%ten_duo        1
+duong-giao-thong+mapinfo_type+mapinfo_polyline+ID+%ID+ten_duong+%ten_       25
+==============================================================================
+Total Input Features Transformed                                            26
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+                         Transformed Features Output
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+duong-giao-thong_point+ID+%ID+TEN_DUONG+%ten_duong+mapinfo_symbol_col        1
+duong-giao-thong_polyline+ID+%ID+TEN_DUONG+%ten_duong+mapinfo_smooth+       25
+==============================================================================
+Total Transformed Features Output                                           26
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+                           Features Written Summary
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+duong-giao-thong_point (duong-giao-thong_point)                              1
+duong-giao-thong_polyline (duong-giao-thong_polyline)                       25
+==============================================================================
+Total Features Written                                                      26
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Translation was SUCCESSFUL with 0 warning(s) (26 feature(s)/147 coordinate(s) output)
+FME Session Duration: 3.8 seconds. (CPU: 0.8s user, 0.3s system)
+END - ProcessID: 8744, peak process memory usage: 36304 kB, current process memory usage: 36148 kB.
+
+Translation SUCCEEDED.
+ 
+ 
+        Feature Manipulation Engine 2010 (20100303 - Build 6209 - WIN32)
+                          MapInfo.UniversalTranslator
+                               Permanent License.
+                     Machine host name is: DESKTOP-OEOBHET
+                           Copyright (c) 1994 - 2009
+                               Safe Software Inc.
+
+TAB files referencing raster data (Layer 'C:\Users\quocv\OneDrive\Máy tính\Document\ban-do-phuong-phu-hoa.tab') cannot be read through the MapInfo reader. Instead, use an approriate raster reader
+FME Session Duration: 0.2 seconds. (CPU: 0.1s user, 0.1s system)
+END - ProcessID: 2868, peak process memory usage: 23324 kB, current process memory usage: 23168 kB.
+
+No specified layers were found in MapInfo Dataset 'C:\Users\quocv\OneDrive\Máy tính\Document'
+Program Terminating
+
+Translation FAILED.
+Unable to generate mapping file.
+ 
+ 
+        Feature Manipulation Engine 2010 (20100303 - Build 6209 - WIN32)
+                          MapInfo.UniversalTranslator
+                               Permanent License.
+                     Machine host name is: DESKTOP-OEOBHET
+                           Copyright (c) 1994 - 2009
+                               Safe Software Inc.
+
+Opened native MapInfo file `C:\Users\quocv\OneDrive\Máy tính\Document\diem-hanh-chinh.tab'
+Predefined coordinate system `LL-MAPINFO' (MapInfo Generic Lat/Long) matches dataset coordinate system 
+Read coordinate system `LL-MAPINFO' from MapInfo data file (parameters are: DT_NAME MAPINFO PROJ LL MAP_SCL 1 UNIT DEGREE )
+Opened mapping File C:\Users\quocv\AppData\Local\Temp\fme543C.tmp for output
+Mapping File Generation was SUCCESSFUL
+Mapping File Generation was SUCCESSFUL.
+FME Session Duration: 1.4 seconds. (CPU: 1.2s user, 0.2s system)
+END - ProcessID: 9336, peak process memory usage: 34176 kB, current process memory usage: 34020 kB.
+
+Translation SUCCEEDED.
+Feature Manipulation Engine 2010 (20100303 - Build 6209 - WIN32)
+FME_HOME is 'C:\Program Files (x86)\MapInfo\Professional\UT\'
+MapInfo.UniversalTranslator
+Permanent License.
+Machine host name is: DESKTOP-OEOBHET
+START - ProcessID: 3040, peak process memory usage: 19708 kB, current process memory usage: 19576 kB.
+FME Configuration: Command line arguments are `imut' `C:\Users\quocv\AppData\Local\Temp\fme5E7E.tmp' `LOG_STANDARDOUT' `YES'
+FME Configuration: Reader Keyword is `MAPINFO'
+FME Configuration: Writer Keyword is `SHAPE'
+FME Configuration: Writer Group Definition Keyword is `SHAPE_DEF'
+FME Configuration: Reader type is `MAPINFO'
+FME Configuration: Writer type is `SHAPE'
+FME Configuration: No destination coordinate system set
+FME Configuration: Geometry Handling Mode is `Classic' 
+FME Configuration: Current working directory is `C:\Users\quocv\OneDrive\Máy tính\Document'
+FME Configuration: Temporary directory is `C:\Users\quocv\AppData\Local\Temp'
+FME Configuration: FME_HOME is `C:\Program Files (x86)\MapInfo\Professional\UT\'
+FME Configuration: FME_BASE is 'yes'
+FME Configuration: FME_MF_DIR is 'C:\Users\quocv\AppData\Local\Temp/'
+FME Configuration: FME_MF_NAME is 'fme5E7E.tmp'
+FME Configuration: FME_PRODUCT_NAME is 'FME 2010'
+System Status: 22898MB of disk space available in the FME temporary directory (C:\Users\quocv\AppData\Local\Temp\)
+System Status: 3937MB of virtual memory available
+Operating System: Microsoft Windows Vista  (Build 9200)
+FME Platform: WIN32
+Locale: vi_VN
+Code Page: 1258  (ANSI/OEM - Viê?t Nam)
+FME Configuration: Process limit is 4015 MB of memory and 4095 MB of address space
+FME Configuration: Start freeing memory when process usage exceeds 2409 MB of memory or 3495 MB of address space
+FME Configuration: Stop freeing memory when process usage is below 1807 MB of memory and 2621 MB of address space
+FME Configuration: Autodetermining optimal maximum number of objects in memory
+Using MapInfo (MFAL) Native Reader $Revision: 51012 $ ( $Date: 2009-02-19 13:41:34 -0800 (Thu, 19 Feb 2009) $ ) to read MapInfo data from directory `C:\Users\quocv\OneDrive\Máy tính\Document\'
+MAPINFO Reader: Using Classic Geometry
+Opened native MapInfo file `C:\Users\quocv\OneDrive\Máy tính\Document\diem-hanh-chinh.tab'
+Predefined coordinate system `LL-MAPINFO' (MapInfo Generic Lat/Long) matches dataset coordinate system 
+Read coordinate system `LL-MAPINFO' from MapInfo data file (parameters are: DT_NAME MAPINFO PROJ LL MAP_SCL 1 UNIT DEGREE )
+Using Shape Writer $Revision: 38505 $ ( $Date: 2007-09-27 12:31:56 -0700 (Thu, 27 Sep 2007) $ ) to write shape files to directory `C:\Users\quocv\OneDrive\Máy tính\Document'
+FME Configuration: Source coordinate system for reader MAPINFO[MAPINFO] set to `LL-MAPINFO' as read from input data
+Coordinate System `LL-MAPINFO' parameters: CS_NAME=`LL-MAPINFO' DESC_NM=`MapInfo Generic Lat/Long' DT_NAME=`MAPINFO' GROUP=`MAPINFO' MAP_SCL=`1' PARM1=`-180' PARM2=`180' PROJ=`LL' QUAD=`1' SCL_RED=`1' SOURCE=`MapInfo' UNIT=`DEGREE' 
+Coordinate System `LL-MAPINFO' as OGC Well Known Text: GEOGCS["MapInfo Generic Lat/Long",DATUM["MAPINFO",SPHEROID["World Geodetic System of 1984, GEM 10C",6378137,298.257223563]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433]]
+FME Configuration: Destination coordinate system set to input coordinate system `LL-MAPINFO'
+Opened Shape File C:\Users\quocv\OneDrive\Máy tính\Document\diem-hanh-chinh_point.shp for output
+Opened DBF file 'C:\Users\quocv\OneDrive\Máy tính\Document\diem-hanh-chinh_point.dbf' for output
+Emptying factory pipeline
+__CollectionTest(TestFactory): Tested 3 input features -- 0 features passed, 3 features failed.
+__DeaggCollections(DeaggregateFactory): Split 0 input feature(s) into 0 point-in-polygon feature(s), 0 donut polygon(s), 0 polygon(s), 0 line(s), 0 point(s), and 0 aggregate(s)
+__AggregateHomo(AggregateFactory): Combined 0 input feature(s) into 0 output feature(s), including 0 singleton(s)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+                            Features Read Summary
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+diem-hanh-chinh                                                              3
+==============================================================================
+Total Features Read                                                          3
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+                         MAPINFO to SHAPE Statistics
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+                          Input Features Transformed
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+diem-hanh-chinh+mapinfo_type+mapinfo_point+ID+%ID+Ten+%Ten+Dia_chi+%D        3
+==============================================================================
+Total Input Features Transformed                                             3
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+                         Transformed Features Output
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+diem-hanh-chinh_point+ID+%ID+TEN+%Ten+DIA_CHI+%Dia_chi+mapinfo_symbol        3
+==============================================================================
+Total Transformed Features Output                                            3
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+                           Features Written Summary
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+diem-hanh-chinh_point (diem-hanh-chinh_point)                                3
+==============================================================================
+Total Features Written                                                       3
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Translation was SUCCESSFUL with 0 warning(s) (3 feature(s)/3 coordinate(s) output)
+FME Session Duration: 2.0 seconds. (CPU: 1.2s user, 0.3s system)
+END - ProcessID: 3040, peak process memory usage: 35420 kB, current process memory usage: 35264 kB.
+
+Translation SUCCEEDED.
+ 
+ 
+
+
+
+

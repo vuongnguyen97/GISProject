@@ -1,0 +1,13 @@
+!table
+!version 300
+!charset WindowsLatin1
+
+Definition Table
+  File "ban-do-phuong-phu-hoa.png"
+  Type "RASTER"
+  (106.6743,10.980709) (127,160) Label "Pt 1",
+  (106.693252,10.98522) (438,92) Label "Pt 2",
+  (106.695276,10.973261) (470,289) Label "Pt 3",
+  (106.680768,10.968019) (231,374) Label "Pt 4"
+  CoordSys Earth Projection 1, 0
+  Units "degree"

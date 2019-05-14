@@ -1,0 +1,89 @@
+!Workspace
+!Version  950
+!Charset WindowsLatin1
+Open Table "ban-do-phuong-phu-hoa.TAB" As ban_do_phuong_phu_hoa Interactive
+Open Table "duong-giao-thong" As duong_giao_thong Interactive
+Open Table "duong-ranh-gioi" As duong_ranh_gioi Interactive
+Open Table "diem-hanh-chinh" As diem_hanh_chinh Interactive
+Map From diem_hanh_chinh,duong_giao_thong,duong_ranh_gioi,ban_do_phuong_phu_hoa
+  Position (0.0104167,-0.0625) Units "in"
+  Width 7.375 Units "in" Height 5.97917 Units "in" 
+Set Window FrontWindow() ScrollBars Off Autoscroll On Enhanced On Smooth Image High
+Set Map
+  CoordSys Earth Projection 1, 0
+  Center (106.6870318,10.97590663)
+  Zoom 3.870044366 Units "km"
+  Preserve Zoom Display Zoom
+  Distance Units "km" Area Units "sq km" XY Units "degree"
+Set Map Layer 0 Selectable
+Set Map
+  Layer 1
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Label Line Arrow Position Right Font ("Arial",0,9,0) Pen (1,2,0) 
+      With Ten
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 2
+    Display Off
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Label Line Arrow Position Above Font ("Arial",0,9,0) Pen (1,2,0) 
+      With ten_duong
+      Parallel On Auto Off Overlap Off Duplicates Off Offset 2
+      Visibility On
+   Object 11 Line Arrow Anchor (106.679141,10.983213) 
+   Object 17 Line Arrow Anchor (106.689608,10.981648) Angle 0.6 
+   Object 16 Line Arrow Anchor (106.682892,10.981858) Angle 0.4 
+   Object 14 Line Arrow Anchor (106.678157,10.981647) Angle 356.9 
+   Object 25 Line Arrow Anchor (106.693751,10.984138) 
+   Object 22 Line Arrow Anchor (106.691398,10.976611) 
+   Object 8 Line Arrow Anchor (106.690878,10.9775) Angle 24.6 
+   Object 21 Line Arrow Anchor (106.686146,10.975943) 
+   Object 20 Line Arrow Anchor (106.687831,10.979277) Callout (106.687722,10.978833) 
+   Object 24 Line Arrow Anchor (106.693796,10.973889) 
+   Object 23 Line Arrow Anchor (106.69329,10.97569) 
+   Object 19 Line Arrow Anchor (106.677804,10.976106) Callout (106.679056,10.975942) Angle 352.5 
+   Object 15 Line Arrow Anchor (106.678419,10.977564) 
+   Object 1 Line Arrow Anchor (106.68138,10.978336) Callout (106.68094,10.978251) 
+   Object 18 Line Arrow Anchor (106.682287,10.973607) Callout (106.681729,10.97371) 
+   Object 7 Line Arrow Anchor (106.680215,10.974619) 
+   Object 2 Line Arrow Anchor (106.6746,10.980016) Callout (106.675567,10.980067) 
+   Object 3 Line Arrow Anchor (106.674725,10.976574) Callout (106.675349,10.976104) 
+   Object 6 Line Arrow Anchor (106.683491,10.967975) Callout (106.682929,10.967766) Angle 281.2 
+   Object 4 Line Arrow Anchor (106.675661,10.971112) Callout (106.675264,10.971128) Angle 268.8 
+   Object 27 Line Arrow Anchor (106.68556,10.963673) Callout (106.686234,10.964752) 
+  Layer 3
+    Display Off
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Label Line None Position Center Font ("Arial",0,9,0) Pen (1,2,0) 
+      With Ten
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility On
+   Object 1 Anchor (106.68841,10.969689) 
+  Layer 4
+    Display Graphic
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,9,0)
+    Selectable Off
+    Zoom (0.17, 67) Units "km" 
+  contrast 50 
+  brightness 50 
+  alpha 255 
+    transparency off 
+  color 0 
+    grayscale off 
+Set Window FrontWindow() Printer
+ Name "OneNote" Orientation Portrait Copies 1
+ Papersize 1
+Browse * From diem_hanh_chinh
+  Position (-0.0833333,-0.322917) Units "in"
+  Width 0 Units "in" Height 0 Units "in" 
+  Row 1 Column 5
+set window FrontWindow() Font ("Segoe UI",0,9,0)
+set browse row 1 column 5
+Set Window FrontWindow() Printer
+ Name "OneNote" Orientation Portrait Copies 1
+ Papersize 1
+Dim WorkspaceMaximizedWindow As Integer
+WorkspaceMaximizedWindow = Frontwindow()
+Set Window WorkspaceMaximizedWindow Max
+Undim WorkspaceMaximizedWindow

@@ -1,0 +1,19 @@
+!table
+!version 300
+!charset WindowsLatin1
+
+Definition Table
+  Type NATIVE Charset "Neutral"
+  Fields 7
+    ID Integer ;
+    Ten Char (50) ;
+    Dia_chi Char (100) ;
+    Loai Char (20) ;
+    Thoi_Gian_Lam_Viec Char (12) ;
+    Nghiep_Vu Char (254) ;
+    Website Char (50) ;
+begin_metadata
+"\IsReadOnly" = "FALSE"
+"\MapInfo" = ""
+"\MapInfo\TableID" = "840c93dc-0ffd-493e-b0da-52949e3cdf8f"
+end_metadata
